@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import { reducer as basket } from './basket';
 
 const reducers = combineReducers({
-  example: () => [],
+  basket,
 });
 
 export default reducers;
